@@ -58,6 +58,7 @@ let renderGame = (game) => {
      <div class="puzzle">${game.getPuzzle}</div>
      <p><strong>Remaining guesses:</strong> ${game.remainingGuesses}</p>
      <p>${game.checkStatus}</p>
+     <p><strong>Tip:</strong> If unresponsive, make sure the browser window is in focus (click anywhere on the page)</p>
    </div>`
   
   document.querySelector("body").innerHTML = "";
