@@ -1,0 +1,1 @@
+A hangman game that uses the DOM to dynamically take input and display output to the user. It also uses the Fetch API to get new words. To play the game, follow this link: https://zealous-bassi-e07d0d.netlify.com/
