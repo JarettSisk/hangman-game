@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: #281F18;
+  color: #fafafa;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.6rem;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+span {
+  font-weight: bold;
+  color: rgb(250, 175, 77);
+  border-bottom: 1px solid #838383;
+  display: inline-block;
+  font-size: 2rem;
+  height: 2.4rem;
+  line-height: 2.4rem;
+  margin: 0 .1rem;
+  text-align: center;
+  text-transform: uppercase;
+  width: 2.4rem;
+}
+
+p {
+  font-weight: 300;
+  margin-bottom: .8rem;
+}
+
+.puzzle {
+  display: flex;
+  margin-bottom: 4.8rem;
+}
+
+.button {
+  background: #FF7400;
+  border: none;
+  border-bottom: 2px solid #FF7400;
+  cursor: pointer;
+  color: white;
+  font-size: 1.4rem;
+  font-weight: 300;
+  padding: .8rem;
+  transition: background .3s ease, color .3s ease;
+}
+
+.button:hover {
+  background: #B35609;
+}
+
+h1 {
+  font-family: "Comic Sans MS";
+  color: rgb(255, 145, 0);
+  font-size: 3em;
+  padding: 0;
+  margin: 0;
+}
+
+strong {
+  color: rgb(250, 175, 77);
+}
